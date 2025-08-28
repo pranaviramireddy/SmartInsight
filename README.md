@@ -1,63 +1,66 @@
-🧠 Smart Insights
 
-A modern platform to summarize data and provide actionable insights efficiently.
+# 🧠 Smart Insights
 
-📋 Table of Contents
+*A modern platform to summarize data and provide actionable insights efficiently.*
 
-Project Overview
+---
 
-Features
+## 📋 Table of Contents
 
-Technology Stack
+* [Project Overview](#-project-overview)
+* [Features](#-features)
+* [Technology Stack](#-technology-stack)
+* [Quick Start](#-quick-start)
+* [Detailed Setup](#-detailed-setup)
+* [Usage Guide](#-usage-guide)
+* [Project Structure](#-project-structure)
+* [Development](#-development)
+* [Contributing](#-contributing)
 
-Quick Start
+---
 
-Detailed Setup
+## 🎯 Project Overview
 
-Usage Guide
+**Smart Insights** is a modern web application designed to **summarize textual or structured data** and provide users with **clear, actionable insights**.
 
-Project Structure
+It leverages a **React + Vite** frontend, modern UI components, and a responsive design, making it lightweight, fast, and developer-friendly.
 
-Development
+---
 
-Contributing
+## ✨ Features
 
-🎯 Project Overview
+* **📄 Text Summarization** → Generate concise, accurate summaries from large content blocks.
+* **📊 Data Insights** → Extract key highlights, trends, and actionable metrics.
+* **🎨 Modern UI** → Built using **shadcn-ui** + **Tailwind CSS** for a seamless experience.
+* **⚡ Lightning Fast** → Powered by **Vite** for near-instant builds and hot reloading.
+* **📱 Fully Responsive** → Optimized for mobile, tablet, and desktop.
 
-Smart Insights is a modern web application designed to summarize textual or structured data and provide users with clear, actionable insights.
+---
 
-It leverages a React + Vite frontend, modern UI components, and a responsive design, making it lightweight, fast, and developer-friendly.
+## 🛠 Technology Stack
 
-✨ Features
+| **Category**    | **Technology** |
+| --------------- | -------------- |
+| Framework       | React + Vite   |
+| Language        | TypeScript     |
+| Styling         | Tailwind CSS   |
+| UI Components   | shadcn-ui      |
+| Icons           | Lucide React   |
+| Package Manager | npm            |
 
-📄 Text Summarization → Generate concise, accurate summaries from large content blocks.
+---
 
-📊 Data Insights → Extract key highlights, trends, and actionable metrics.
+## 🚀 Quick Start
 
-🎨 Modern UI → Built using shadcn-ui + Tailwind CSS for a seamless experience.
+### **Prerequisites**
 
-⚡ Lightning Fast → Powered by Vite for near-instant builds and hot reloading.
+* **Node.js** (v18+ recommended)
+* **npm** (comes with Node)
+* **Git**
 
-📱 Fully Responsive → Optimized for mobile, tablet, and desktop.
+### **1-Minute Setup**
 
-🛠 Technology Stack
-Category	Technology
-Framework	React + Vite
-Language	TypeScript
-Styling	Tailwind CSS
-UI Components	shadcn-ui
-Icons	Lucide React
-Package Manager	npm
-🚀 Quick Start
-Prerequisites
-
-Node.js (v18+ recommended)
-
-npm (comes with Node)
-
-Git
-
-1-Minute Setup
+```bash
 # Clone the repository
 git clone https://github.com/<your-username>/SmartInsight.git
 cd SmartInsight
@@ -67,40 +70,56 @@ npm install
 
 # Start the development server
 npm run dev
+```
 
+Now open **[http://localhost:5173](http://localhost:5173)** in your browser.
 
-Now open http://localhost:5173
- in your browser.
+---
 
-📖 Detailed Setup
-1. Clone the Repository
+## 📖 Detailed Setup
+
+### **1. Clone the Repository**
+
+```bash
 git clone https://github.com/<your-username>/SmartInsight.git
 cd SmartInsight
+```
 
-2. Install Dependencies
+### **2. Install Dependencies**
+
+```bash
 npm install
+```
 
-3. Start Development
+### **3. Start Development**
+
+```bash
 npm run dev
+```
 
+Your app will start with **hot reloading** enabled.
 
-Your app will start with hot reloading enabled.
+### **4. Build for Production**
 
-4. Build for Production
+```bash
 npm run build
 npm run preview
+```
 
-📚 Usage Guide
+---
 
-Open the app in your browser.
+## 📚 Usage Guide
 
-Input data or upload files.
+* Open the app in your browser.
+* Input data or upload files.
+* Generate summaries and insights in seconds.
+* View results in an intuitive, responsive interface.
 
-Generate summaries and insights in seconds.
+---
 
-View results in an intuitive, responsive interface.
+## 📁 Project Structure
 
-📁 Project Structure
+```
 SmartInsight/
 │
 ├── public/                # Static assets
@@ -118,32 +137,35 @@ SmartInsight/
 ├── tailwind.config.js     # Tailwind configuration
 ├── vite.config.js         # Vite configuration
 └── README.md              # Project documentation
+```
 
-🧑‍💻 Development
+---
 
-Start development → npm run dev
+## 🧑‍💻 Development
 
-Build production version → npm run build
+* **Start development** → `npm run dev`
+* **Build production version** → `npm run build`
+* **Preview production build** → `npm run preview`
 
-Preview production build → npm run preview
+---
 
-🤝 Contributing
+## 🤝 Contributing
 
-Fork the repo.
+1. Fork the repo.
+2. Create your feature branch:
 
-Create your feature branch:
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. Commit your changes:
 
-git checkout -b feature/amazing-feature
+   ```bash
+   git commit -m "Add amazing feature"
+   ```
+4. Push to the branch:
 
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. Open a pull request.
 
-Commit your changes:
-
-git commit -m "Add amazing feature"
-
-
-Push to the branch:
-
-git push origin feature/amazing-feature
-
-
-Open a pull request.
